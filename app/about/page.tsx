@@ -85,7 +85,7 @@ export default function AboutPage() {
           </Reveal>
 
           <Reveal delay={0.12} className="relative">
-            <div className="pointer-events-none absolute -inset-6 rounded-[40px] bg-gradient-to-br from-sky-500/25 to-indigo-600/20 blur-2xl" aria-hidden="true" />
+            <div className="pointer-events-none absolute -inset-3 rounded-[40px] sm:-inset-6 bg-gradient-to-br from-sky-500/25 to-indigo-600/20 blur-2xl" aria-hidden="true" />
             <div className="relative overflow-hidden rounded-[32px] glass p-2">
               <Image
                 src={unsplash("https://images.unsplash.com/photo-1592890288564-76628a30a657", 1000)}
